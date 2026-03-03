@@ -13,8 +13,8 @@ import java.util.stream.Collectors;
 
 @Controller
 
-public class GetControler {
-    public GetControler() {
+public class GetController {
+    public GetController() {
         PythonScriptRunner.runPythonScript();
         PythonScriptRunner.runPythonScriptFundamentalAnalysis();
         PythonScriptRunner.runPythonScriptLSTM();

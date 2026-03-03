@@ -75,8 +75,6 @@ playwright-report/
 test-results/
 
 # Data files (add if you don't want to track scraped data)
-*.csv
-*.json
 data/
 output/
 

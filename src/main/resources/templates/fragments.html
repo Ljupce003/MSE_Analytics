@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header_scripts">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<nav th:fragment="navbar(activePage)" class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16 items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 flex-shrink-0">
+                    <img src="/images/logo.png" alt="Logo" class="w-full h-full object-contain">
+                </div>
+                <a href="/" class="text-xl font-bold tracking-tight text-blue-900 leading-none">
+                    МСЕ Аналитика
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="/index" th:classappend="${activePage == 'index'} ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-blue-600'"
+                   class="px-1 pt-1 text-sm font-semibold transition">Почетна</a>
+
+                <a href="/tech_analysis" th:classappend="${activePage == 'tech'} ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-blue-600'"
+                   class="px-1 pt-1 text-sm font-semibold transition">Техничка</a>
+
+                <a href="/fundamental" th:classappend="${activePage == 'fundamental'} ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-blue-600'"
+                   class="px-1 pt-1 text-sm font-semibold transition">Фундаментална</a>
+
+                <a href="/lstm" th:classappend="${activePage == 'lstm'} ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-blue-600'"
+                   class="px-1 pt-1 text-sm font-semibold transition">LSTM Прогнози</a>
+
+                <a href="/progress" th:classappend="${activePage == 'admin'} ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-blue-600'"
+                   class="px-1 pt-1 text-sm font-semibold transition">Оперативен Преглед</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<footer th:fragment="footer" class="bg-white border-t border-gray-200 mt-12 py-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <p class="text-gray-500 text-sm">
+            &copy; <span th:text="${#dates.year(#dates.createNow())}"></span>  МСЕ Аналитика. Сите права се задржани.
+        </p>
+        <p class="mt-2 text-gray-400 text-xs">
+            Изработено од:
+            <a href="https://ljupchoangelovski.com" class="text-blue-600 hover:underline font-medium">Љупчо Ангеловски</a>
+            и мојот <a href="https://github.com/janev77/MSE_Scraper" class="text-blue-600 hover:underline font-medium">тим на студенти од ФИНКИ</a>
+        </p>
+        <div class="mt-4 flex justify-center space-x-4 text-gray-400">
+            <a href="https://github.com/Ljupce003" class="hover:text-blue-900"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

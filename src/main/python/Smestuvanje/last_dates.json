@@ -1,0 +1,518 @@
+[
+    {
+        "code": "ADIN",
+        "last_date": "13.02.2026"
+    },
+    {
+        "code": "ALK",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "GRNT",
+        "last_date": "25.02.2026"
+    },
+    {
+        "code": "INB",
+        "last_date": "27.02.2026"
+    },
+    {
+        "code": "KMB",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "MPT",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "MTUR",
+        "last_date": "26.11.2025"
+    },
+    {
+        "code": "OKTA",
+        "last_date": "26.02.2026"
+    },
+    {
+        "code": "REPL",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "STB",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "STIL",
+        "last_date": "10.02.2026"
+    },
+    {
+        "code": "TEL",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "TNB",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "TTK",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "UNI",
+        "last_date": "02.03.2026"
+    },
+    {
+        "code": "RADE",
+        "last_date": "27.02.2026"
+    },
+    {
+        "code": "TETE",
+        "last_date": "23.02.2026"
+    },
+    {
+        "code": "TKVS",
+        "last_date": "19.02.2026"
+    },
+    {
+        "code": "USJE",
+        "last_date": "20.02.2026"
+    },
+    {
+        "code": "ZPKO",
+        "last_date": "11.02.2026"
+    },
+    {
+        "code": "AITO",
+        "last_date": "06.05.2025"
+    },
+    {
+        "code": "AMEH",
+        "last_date": "19.08.2019"
+    },
+    {
+        "code": "APTK",
+        "last_date": "08.07.2025"
+    },
+    {
+        "code": "ATPP",
+        "last_date": "18.03.2025"
+    },
+    {
+        "code": "AUMK",
+        "last_date": "18.09.2025"
+    },
+    {
+        "code": "BANA",
+        "last_date": "15.08.2025"
+    },
+    {
+        "code": "BGOR",
+        "last_date": "31.01.2025"
+    },
+    {
+        "code": "BIM",
+        "last_date": "22.07.2024"
+    },
+    {
+        "code": "BLTU",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "CBNG",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "CEVI",
+        "last_date": "30.12.2025"
+    },
+    {
+        "code": "CKB",
+        "last_date": "19.12.2025"
+    },
+    {
+        "code": "DEBA",
+        "last_date": "01.06.2016"
+    },
+    {
+        "code": "DIMI",
+        "last_date": "13.09.2024"
+    },
+    {
+        "code": "ELMA",
+        "last_date": "05.02.2025"
+    },
+    {
+        "code": "EUHA",
+        "last_date": "27.10.2025"
+    },
+    {
+        "code": "EVRO",
+        "last_date": "30.05.2025"
+    },
+    {
+        "code": "FAKM",
+        "last_date": "16.06.2023"
+    },
+    {
+        "code": "FERS",
+        "last_date": "17.02.2026"
+    },
+    {
+        "code": "FKPO",
+        "last_date": "07.03.2025"
+    },
+    {
+        "code": "FUBT",
+        "last_date": "09.12.2025"
+    },
+    {
+        "code": "GRDN",
+        "last_date": "29.01.2026"
+    },
+    {
+        "code": "GRSN",
+        "last_date": "29.01.2026"
+    },
+    {
+        "code": "GRZD",
+        "last_date": "10.07.2017"
+    },
+    {
+        "code": "GTC",
+        "last_date": "25.10.2024"
+    },
+    {
+        "code": "GTRG",
+        "last_date": "18.11.2025"
+    },
+    {
+        "code": "INBR",
+        "last_date": "01.03.2021"
+    },
+    {
+        "code": "INHO",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "INPR",
+        "last_date": "24.06.2025"
+    },
+    {
+        "code": "INTP",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "KARO",
+        "last_date": "19.11.2025"
+    },
+    {
+        "code": "KJUBI",
+        "last_date": "17.02.2026"
+    },
+    {
+        "code": "KLST",
+        "last_date": "26.12.2022"
+    },
+    {
+        "code": "KOMU",
+        "last_date": "07.12.2020"
+    },
+    {
+        "code": "KONF",
+        "last_date": "09.12.2022"
+    },
+    {
+        "code": "KONZ",
+        "last_date": "08.08.2025"
+    },
+    {
+        "code": "KPSS",
+        "last_date": "09.12.2025"
+    },
+    {
+        "code": "KVAS",
+        "last_date": "25.02.2026"
+    },
+    {
+        "code": "LOTO",
+        "last_date": "17.07.2025"
+    },
+    {
+        "code": "LOZP",
+        "last_date": "10.11.2025"
+    },
+    {
+        "code": "MAKP",
+        "last_date": "27.12.2023"
+    },
+    {
+        "code": "MAKS",
+        "last_date": "22.01.2019"
+    },
+    {
+        "code": "MB",
+        "last_date": "13.02.2026"
+    },
+    {
+        "code": "MERM",
+        "last_date": "03.02.2026"
+    },
+    {
+        "code": "MKSD",
+        "last_date": "28.11.2024"
+    },
+    {
+        "code": "MLKR",
+        "last_date": "25.04.2024"
+    },
+    {
+        "code": "MODA",
+        "last_date": "04.09.2023"
+    },
+    {
+        "code": "MOKL",
+        "last_date": "03.10.2025"
+    },
+    {
+        "code": "MPOL",
+        "last_date": "23.01.2026"
+    },
+    {
+        "code": "MZHE",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "MZOV",
+        "last_date": "05.09.2025"
+    },
+    {
+        "code": "MZPU",
+        "last_date": "24.02.2026"
+    },
+    {
+        "code": "NEME",
+        "last_date": "30.07.2025"
+    },
+    {
+        "code": "NOSK",
+        "last_date": "04.10.2024"
+    },
+    {
+        "code": "OBIN",
+        "last_date": "19.06.2025"
+    },
+    {
+        "code": "OILK",
+        "last_date": "27.01.2021"
+    },
+    {
+        "code": "OPFO",
+        "last_date": "04.11.2025"
+    },
+    {
+        "code": "OPTK",
+        "last_date": "16.10.2025"
+    },
+    {
+        "code": "ORAN",
+        "last_date": "14.10.2024"
+    },
+    {
+        "code": "OSPO",
+        "last_date": "19.04.2024"
+    },
+    {
+        "code": "OTEK",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "PALT",
+        "last_date": "01.12.2025"
+    },
+    {
+        "code": "PKB",
+        "last_date": "03.11.2025"
+    },
+    {
+        "code": "POPK",
+        "last_date": "06.02.2026"
+    },
+    {
+        "code": "PPIV",
+        "last_date": "08.10.2025"
+    },
+    {
+        "code": "PROD",
+        "last_date": "14.04.2025"
+    },
+    {
+        "code": "RINS",
+        "last_date": "30.07.2025"
+    },
+    {
+        "code": "RZEK",
+        "last_date": "04.12.2025"
+    },
+    {
+        "code": "RZIT",
+        "last_date": "23.08.2019"
+    },
+    {
+        "code": "RZLE",
+        "last_date": "25.12.2025"
+    },
+    {
+        "code": "RZLV",
+        "last_date": "29.01.2026"
+    },
+    {
+        "code": "RZTK",
+        "last_date": "17.02.2026"
+    },
+    {
+        "code": "RZUG",
+        "last_date": "23.12.2022"
+    },
+    {
+        "code": "RZUS",
+        "last_date": "11.02.2026"
+    },
+    {
+        "code": "SBT",
+        "last_date": "25.02.2026"
+    },
+    {
+        "code": "SDOM",
+        "last_date": "18.06.2024"
+    },
+    {
+        "code": "SIGA",
+        "last_date": "16.06.2025"
+    },
+    {
+        "code": "SIL",
+        "last_date": "26.11.2024"
+    },
+    {
+        "code": "SKP",
+        "last_date": "03.02.2026"
+    },
+    {
+        "code": "SLAV",
+        "last_date": "29.10.2025"
+    },
+    {
+        "code": "SPAZ",
+        "last_date": "19.02.2026"
+    },
+    {
+        "code": "SPAZP",
+        "last_date": "13.02.2026"
+    },
+    {
+        "code": "SPOL",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "SSPR",
+        "last_date": "30.04.2020"
+    },
+    {
+        "code": "STBP",
+        "last_date": "29.01.2026"
+    },
+    {
+        "code": "STEL",
+        "last_date": "22.05.2025"
+    },
+    {
+        "code": "STOK",
+        "last_date": "25.10.2018"
+    },
+    {
+        "code": "TAJM",
+        "last_date": "03.08.2021"
+    },
+    {
+        "code": "TASK",
+        "last_date": "15.01.2025"
+    },
+    {
+        "code": "TEAL",
+        "last_date": "23.09.2025"
+    },
+    {
+        "code": "TEHN",
+        "last_date": "18.11.2021"
+    },
+    {
+        "code": "TIKV",
+        "last_date": "27.12.2024"
+    },
+    {
+        "code": "TKPR",
+        "last_date": "19.06.2025"
+    },
+    {
+        "code": "TRDB",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "TRPS",
+        "last_date": "27.01.2020"
+    },
+    {
+        "code": "TSMP",
+        "last_date": "16.06.2025"
+    },
+    {
+        "code": "TURT",
+        "last_date": "04.03.2025"
+    },
+    {
+        "code": "VARG",
+        "last_date": "28.12.2021"
+    },
+    {
+        "code": "VENC",
+        "last_date": "24.04.2025"
+    },
+    {
+        "code": "VITA",
+        "last_date": "17.02.2026"
+    },
+    {
+        "code": "VROS",
+        "last_date": "28.06.2023"
+    },
+    {
+        "code": "VTKS",
+        "last_date": "04.03.2022"
+    },
+    {
+        "code": "ZAS",
+        "last_date": "25.04.2023"
+    },
+    {
+        "code": "ZELE",
+        "last_date": "24.06.2025"
+    },
+    {
+        "code": "ZILU",
+        "last_date": "27.02.2026"
+    },
+    {
+        "code": "ZILUP",
+        "last_date": "03.03.2016"
+    },
+    {
+        "code": "ZKAR",
+        "last_date": "15.05.2023"
+    },
+    {
+        "code": "ZLRB",
+        "last_date": "01.10.2025"
+    },
+    {
+        "code": "ZPOG",
+        "last_date": "14.02.2025"
+    }
+]

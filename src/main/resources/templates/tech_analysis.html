@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="mk" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+  <th:block th:replace="~{fragments :: header_scripts}"></th:block>
+  <title>МСЕ Аналитика | Техничка Анализа</title>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    /* Professional Chart Height */
+    #container { height: 650px; width: 100%; }
+    .loader-spin { border: 3px solid #f3f3f3; border-top: 3px solid #3b82f6; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+    /* Style for the select inputs to look uniform */
+    select {
+      appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.5rem center;
+      background-size: 1em;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+<div th:replace="~{fragments :: navbar('tech')}"></div>
+
+<main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+
+  <div class="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
+    <div>
+      <h1 class="text-2xl font-bold text-gray-800 flex items-center gap-2">
+        <i class="fas fa-chart-line text-blue-600"></i> Техничка Анализа
+      </h1>
+      <p class="text-sm text-gray-500">Напредно графичко следење и технички индикатори за македонски акции</p>
+    </div>
+
+    <div class="flex items-center gap-4">
+      <div th:if="${error != null}" class="bg-red-100 text-red-700 px-4 py-2 rounded-lg text-sm flex items-center border border-red-200">
+        <i class="fas fa-exclamation-triangle mr-2"></i>
+        <span th:text="${error}"></span>
+      </div>
+      <div id="loader-container" class="items-center gap-2 text-blue-600"
+           th:classappend="${error == null ? 'hidden' : 'flex'}">
+        <div class="loader-spin"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white p-4 rounded-t-xl border border-gray-200 border-b-0 shadow-sm">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="space-y-1">
+        <label class="text-[10px] font-bold text-gray-400 uppercase tracking-widest ml-1">Издавач (Акција)</label>
+        <div class="relative">
+          <select id="stockSelector" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 outline-none transition">
+            <option value="">Избери компанија...</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="space-y-1">
+        <label class="text-[10px] font-bold text-gray-400 uppercase tracking-widest ml-1">Индикатори (Overlays)</label>
+        <select id="overlays" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 outline-none transition">
+          <option value="none" selected>Без индикатор</option>
+          <option value="linearRegression">Linear Regression</option>
+          <option value="pivotpoints">Pivot Points</option>
+          <option value="pc">Price Channel</option>
+          <option value="sma">SMA (Simple Moving Average)</option>
+          <option value="supertrend">Super Trend</option>
+        </select>
+      </div>
+
+      <div class="space-y-1">
+        <label class="text-[10px] font-bold text-gray-400 uppercase tracking-widest ml-1">Осцилатори</label>
+        <select id="oscillators" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 outline-none transition">
+          <option value="none" selected>Без осцилатор</option>
+          <option value="apo">Absolute Price Oscillator</option>
+          <option value="ao">Awesome Oscillator</option>
+          <option value="cci">CCI (Commodity Channel Index)</option>
+          <option value="macd">MACD</option>
+          <option value="mfi">MFI (Money Flow Index)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-b-xl border border-gray-200 shadow-lg overflow-hidden p-2">
+    <div id="container">
+      <div class="flex items-center justify-center h-full text-gray-300 italic">
+        Изберете издавач за да започнете со анализа...
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 p-4 bg-blue-50 border border-blue-100 rounded-lg flex items-start gap-3">
+    <i class="fas fa-info-circle text-blue-500 mt-1"></i>
+    <p class="text-xs text-blue-700 leading-relaxed">
+      <strong>Совет:</strong> Користете го лизгачот на дното од графиконот за да го промените временскиот опсег. Техничките индикатори автоматски ќе се рекалкулираат врз основа на видливите податоци.
+    </p>
+  </div>
+</main>
+
+<div th:replace="~{fragments :: footer}"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11/highstock.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11/modules/data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11/modules/exporting.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11/indicators/indicators-all.js"></script>
+
+<script src="/js/chart.js"></script>
+<script src="/js/autoRefresh.js"></script>
+</body>
+</html>

@@ -1,0 +1,647 @@
+[
+    {
+        "Issuer code": "ADIN",
+        "Issuer name": "Адинг Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ADIN"
+    },
+    {
+        "Issuer code": "AITO",
+        "Issuer name": "Аитоникс АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/AITO"
+    },
+    {
+        "Issuer code": "ALK",
+        "Issuer name": "Алкалоид Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ALK"
+    },
+    {
+        "Issuer code": "AMEH",
+        "Issuer name": "Агромеханика Скопје - долгорочно суспендирано од котација",
+        "Issuer link": "https://www.mse.mk/mk/symbol/AMEH"
+    },
+    {
+        "Issuer code": "APTK",
+        "Issuer name": "Ангропромет-Тиквешанка Кавадарци",
+        "Issuer link": "https://www.mse.mk/mk/symbol/APTK"
+    },
+    {
+        "Issuer code": "ATPP",
+        "Issuer name": "АТП Пролетер Крива Паланка",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ATPP"
+    },
+    {
+        "Issuer code": "AUMK",
+        "Issuer name": "Аутомакедонија Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/AUMK"
+    },
+    {
+        "Issuer code": "BANA",
+        "Issuer name": "Рудници Бањани Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/BANA"
+    },
+    {
+        "Issuer code": "BGOR",
+        "Issuer name": "Кристал 1923 АД Велес",
+        "Issuer link": "https://www.mse.mk/mk/symbol/BGOR"
+    },
+    {
+        "Issuer code": "BIM",
+        "Issuer name": "БИМ Свети Николе",
+        "Issuer link": "https://www.mse.mk/mk/symbol/BIM"
+    },
+    {
+        "Issuer code": "BLTU",
+        "Issuer name": "Благој Туфанов АД Радовиш - долгорочно суспендирано од котација",
+        "Issuer link": "https://www.mse.mk/mk/symbol/BLTU"
+    },
+    {
+        "Issuer code": "CBNG",
+        "Issuer name": "Црвени брегови Неготино",
+        "Issuer link": "https://www.mse.mk/mk/symbol/CBNG"
+    },
+    {
+        "Issuer code": "CEVI",
+        "Issuer name": "ФЗЦ 11 Октомври Куманово",
+        "Issuer link": "https://www.mse.mk/mk/symbol/CEVI"
+    },
+    {
+        "Issuer code": "CKB",
+        "Issuer name": "Централна кооперативна банка Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/CKB"
+    },
+    {
+        "Issuer code": "DEBA",
+        "Issuer name": "Дебарски бањи Дебар",
+        "Issuer link": "https://www.mse.mk/mk/symbol/DEBA"
+    },
+    {
+        "Issuer code": "DIMI",
+        "Issuer name": "Димко Митрев Велес",
+        "Issuer link": "https://www.mse.mk/mk/symbol/DIMI"
+    },
+    {
+        "Issuer code": "ELMA",
+        "Issuer name": "Елмар Штип",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ELMA"
+    },
+    {
+        "Issuer code": "EUHA",
+        "Issuer name": "Еурохаус АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/EUHA"
+    },
+    {
+        "Issuer code": "EVRO",
+        "Issuer name": "Европа Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/EVRO"
+    },
+    {
+        "Issuer code": "FAKM",
+        "Issuer name": "Факом Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/FAKM"
+    },
+    {
+        "Issuer code": "FERS",
+        "Issuer name": "Фершпед Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/FERS"
+    },
+    {
+        "Issuer code": "FKPO",
+        "Issuer name": "ФК Победа АД Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/FKPO"
+    },
+    {
+        "Issuer code": "FUBT",
+        "Issuer name": "Фустеларко Борец Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/FUBT"
+    },
+    {
+        "Issuer code": "GRDN",
+        "Issuer name": "Градинар Охрид",
+        "Issuer link": "https://www.mse.mk/mk/symbol/GRDN"
+    },
+    {
+        "Issuer code": "GRNT",
+        "Issuer name": "Гранит Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/GRNT"
+    },
+    {
+        "Issuer code": "GRSN",
+        "Issuer name": "Градинар Свети Николе",
+        "Issuer link": "https://www.mse.mk/mk/symbol/GRSN"
+    },
+    {
+        "Issuer code": "GRZD",
+        "Issuer name": "Грозд Струмица",
+        "Issuer link": "https://www.mse.mk/mk/symbol/GRZD"
+    },
+    {
+        "Issuer code": "GTC",
+        "Issuer name": "Градски Трговски Центар Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/GTC"
+    },
+    {
+        "Issuer code": "GTRG",
+        "Issuer name": "Гетро Гостивар",
+        "Issuer link": "https://www.mse.mk/mk/symbol/GTRG"
+    },
+    {
+        "Issuer code": "INB",
+        "Issuer name": "Шпаркасе банка Македонија АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/INB"
+    },
+    {
+        "Issuer code": "INBR",
+        "Issuer name": "Инвестброкер Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/INBR"
+    },
+    {
+        "Issuer code": "INHO",
+        "Issuer name": "Интернешнел Хотелс АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/INHO"
+    },
+    {
+        "Issuer code": "INPR",
+        "Issuer name": "Интерпромет Тетово",
+        "Issuer link": "https://www.mse.mk/mk/symbol/INPR"
+    },
+    {
+        "Issuer code": "INTP",
+        "Issuer name": "Капитал Банка Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/INTP"
+    },
+    {
+        "Issuer code": "KARO",
+        "Issuer name": "Караорман Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KARO"
+    },
+    {
+        "Issuer code": "KJUBI",
+        "Issuer name": "Македонија осигурување АД Скопје - Виена Иншуренс Груп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KJUBI"
+    },
+    {
+        "Issuer code": "KLST",
+        "Issuer name": "Кланица со ладилник Струмица",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KLST"
+    },
+    {
+        "Issuer code": "KMB",
+        "Issuer name": "Комерцијална банка Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KMB"
+    },
+    {
+        "Issuer code": "KOMU",
+        "Issuer name": "ДС Смитх АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KOMU"
+    },
+    {
+        "Issuer code": "KONF",
+        "Issuer name": "Конзервна фабрика Струмица",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KONF"
+    },
+    {
+        "Issuer code": "KONZ",
+        "Issuer name": "Фруктал МАК Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KONZ"
+    },
+    {
+        "Issuer code": "KPSS",
+        "Issuer name": "Карпош Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KPSS"
+    },
+    {
+        "Issuer code": "KVAS",
+        "Issuer name": "Квасара Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/KVAS"
+    },
+    {
+        "Issuer code": "LOTO",
+        "Issuer name": "Лотарија на Македонија Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/LOTO"
+    },
+    {
+        "Issuer code": "LOZP",
+        "Issuer name": "Пелистерка АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/LOZP"
+    },
+    {
+        "Issuer code": "MAKP",
+        "Issuer name": "Макпромет Штип",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MAKP"
+    },
+    {
+        "Issuer code": "MAKS",
+        "Issuer name": "Макотекс Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MAKS"
+    },
+    {
+        "Issuer code": "MB",
+        "Issuer name": "Македонска берза АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MB"
+    },
+    {
+        "Issuer code": "MERM",
+        "Issuer name": "Мермерен комбинат Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MERM"
+    },
+    {
+        "Issuer code": "MKSD",
+        "Issuer name": "Макошпед Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MKSD"
+    },
+    {
+        "Issuer code": "MLKR",
+        "Issuer name": "Млекара АД Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MLKR"
+    },
+    {
+        "Issuer code": "MODA",
+        "Issuer name": "Мода Свети Николе",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MODA"
+    },
+    {
+        "Issuer code": "MOKL",
+        "Issuer name": "Мокел-ЕЕИИ АД Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MOKL"
+    },
+    {
+        "Issuer code": "MPOL",
+        "Issuer name": "Хотели Метропол Охрид",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MPOL"
+    },
+    {
+        "Issuer code": "MPT",
+        "Issuer name": "Макпетрол Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MPT"
+    },
+    {
+        "Issuer code": "MTUR",
+        "Issuer name": "Македонијатурист Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MTUR"
+    },
+    {
+        "Issuer code": "MZHE",
+        "Issuer name": "Вабтек МЗТ Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MZHE"
+    },
+    {
+        "Issuer code": "MZOV",
+        "Issuer name": "МЗТ Опрема за возила Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MZOV"
+    },
+    {
+        "Issuer code": "MZPU",
+        "Issuer name": "МЗТ Пумпи Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/MZPU"
+    },
+    {
+        "Issuer code": "NEME",
+        "Issuer name": "Огражден Струмица",
+        "Issuer link": "https://www.mse.mk/mk/symbol/NEME"
+    },
+    {
+        "Issuer code": "NOSK",
+        "Issuer name": "Нова стоковна куќа Струмица",
+        "Issuer link": "https://www.mse.mk/mk/symbol/NOSK"
+    },
+    {
+        "Issuer code": "OBIN",
+        "Issuer name": "ОБД ИНКО АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OBIN"
+    },
+    {
+        "Issuer code": "OILK",
+        "Issuer name": "Оилко КДА Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OILK"
+    },
+    {
+        "Issuer code": "OKTA",
+        "Issuer name": "ОКТА Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OKTA"
+    },
+    {
+        "Issuer code": "OPFO",
+        "Issuer name": "Опфолио АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OPFO"
+    },
+    {
+        "Issuer code": "OPTK",
+        "Issuer name": "Очна оптика Геталдус Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OPTK"
+    },
+    {
+        "Issuer code": "ORAN",
+        "Issuer name": "Оранжерии Хамзали Струмица",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ORAN"
+    },
+    {
+        "Issuer code": "OSPO",
+        "Issuer name": "Осигурителна полиса Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OSPO"
+    },
+    {
+        "Issuer code": "OTEK",
+        "Issuer name": "Отекс Охрид",
+        "Issuer link": "https://www.mse.mk/mk/symbol/OTEK"
+    },
+    {
+        "Issuer code": "PALT",
+        "Issuer name": "Дамјанов АД Делчево",
+        "Issuer link": "https://www.mse.mk/mk/symbol/PALT"
+    },
+    {
+        "Issuer code": "PKB",
+        "Issuer name": "Пекабеско Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/PKB"
+    },
+    {
+        "Issuer code": "POPK",
+        "Issuer name": "Попова Кула Демир Капија",
+        "Issuer link": "https://www.mse.mk/mk/symbol/POPK"
+    },
+    {
+        "Issuer code": "PPIV",
+        "Issuer name": "Прилепска Пиварница Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/PPIV"
+    },
+    {
+        "Issuer code": "PROD",
+        "Issuer name": "Просветно дело Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/PROD"
+    },
+    {
+        "Issuer code": "RADE",
+        "Issuer name": "Раде Кончар Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RADE"
+    },
+    {
+        "Issuer code": "REPL",
+        "Issuer name": "Реплек Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/REPL"
+    },
+    {
+        "Issuer code": "RINS",
+        "Issuer name": "Реинг Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RINS"
+    },
+    {
+        "Issuer code": "RZEK",
+        "Issuer name": "РЖ Економика Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZEK"
+    },
+    {
+        "Issuer code": "RZIT",
+        "Issuer name": "РЖ Интер-Трансшпед Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZIT"
+    },
+    {
+        "Issuer code": "RZLE",
+        "Issuer name": "АрцелорМиттал (ХРМ) АД Скопје - долгорочно суспендирано од котација",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZLE"
+    },
+    {
+        "Issuer code": "RZLV",
+        "Issuer name": "Либерти АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZLV"
+    },
+    {
+        "Issuer code": "RZTK",
+        "Issuer name": "РЖ Техничка контрола Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZTK"
+    },
+    {
+        "Issuer code": "RZUG",
+        "Issuer name": "РЖ Уготур Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZUG"
+    },
+    {
+        "Issuer code": "RZUS",
+        "Issuer name": "РЖ Услуги Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/RZUS"
+    },
+    {
+        "Issuer code": "SBT",
+        "Issuer name": "АЛТА банка АД Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SBT"
+    },
+    {
+        "Issuer code": "SDOM",
+        "Issuer name": "Современ дом Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SDOM"
+    },
+    {
+        "Issuer code": "SIGA",
+        "Issuer name": "СИГАЛ Иншуренс Груп АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SIGA"
+    },
+    {
+        "Issuer code": "SIL",
+        "Issuer name": "Силекс Кратово",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SIL"
+    },
+    {
+        "Issuer code": "SKP",
+        "Issuer name": "Пивара Скопје АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SKP"
+    },
+    {
+        "Issuer code": "SLAV",
+        "Issuer name": "Славеј Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SLAV"
+    },
+    {
+        "Issuer code": "SPAZ",
+        "Issuer name": "Скопски Пазар Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SPAZ"
+    },
+    {
+        "Issuer code": "SPAZP",
+        "Issuer name": "Скопски пазар Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SPAZP"
+    },
+    {
+        "Issuer code": "SPOL",
+        "Issuer name": "Струмичко поле с.Василево",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SPOL"
+    },
+    {
+        "Issuer code": "SSPR",
+        "Issuer name": "Сигурносно стакло Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/SSPR"
+    },
+    {
+        "Issuer code": "STB",
+        "Issuer name": "Стопанска банка Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/STB"
+    },
+    {
+        "Issuer code": "STBP",
+        "Issuer name": "Стопанска банка Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/STBP"
+    },
+    {
+        "Issuer code": "STEL",
+        "Issuer name": "СТЕЛ-ЕР АД Штип",
+        "Issuer link": "https://www.mse.mk/mk/symbol/STEL"
+    },
+    {
+        "Issuer code": "STIL",
+        "Issuer name": "Макстил Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/STIL"
+    },
+    {
+        "Issuer code": "STOK",
+        "Issuer name": "Стокопромет Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/STOK"
+    },
+    {
+        "Issuer code": "TAJM",
+        "Issuer name": "Тајмиште АД Кичево - долгорочно суспендирано од котација",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TAJM"
+    },
+    {
+        "Issuer code": "TASK",
+        "Issuer name": "Таска АД Кавадарци",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TASK"
+    },
+    {
+        "Issuer code": "TEAL",
+        "Issuer name": "ТЕАЛ-Алумина Тетово",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TEAL"
+    },
+    {
+        "Issuer code": "TEHN",
+        "Issuer name": "Технокомерц Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TEHN"
+    },
+    {
+        "Issuer code": "TEL",
+        "Issuer name": "Македонски Телеком Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TEL"
+    },
+    {
+        "Issuer code": "TETE",
+        "Issuer name": "Тетекс Тетово",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TETE"
+    },
+    {
+        "Issuer code": "TIKV",
+        "Issuer name": "ГД-Тиквеш Кавадарци",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TIKV"
+    },
+    {
+        "Issuer code": "TKPR",
+        "Issuer name": "Тутунски комбинат Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TKPR"
+    },
+    {
+        "Issuer code": "TKVS",
+        "Issuer name": "ВВ Тиквеш АД Кавадарци",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TKVS"
+    },
+    {
+        "Issuer code": "TNB",
+        "Issuer name": "НЛБ Банка АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TNB"
+    },
+    {
+        "Issuer code": "TRDB",
+        "Issuer name": "Трудбеник АД Охрид - долгорочно суспендирано од котација",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TRDB"
+    },
+    {
+        "Issuer code": "TRPS",
+        "Issuer name": "Транскоп-Патнички сооб. Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TRPS"
+    },
+    {
+        "Issuer code": "TSMP",
+        "Issuer name": "Трготекстил малопродажба Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TSMP"
+    },
+    {
+        "Issuer code": "TTK",
+        "Issuer name": "ТТК Банка АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TTK"
+    },
+    {
+        "Issuer code": "TURT",
+        "Issuer name": "Туртел Штип",
+        "Issuer link": "https://www.mse.mk/mk/symbol/TURT"
+    },
+    {
+        "Issuer code": "UNI",
+        "Issuer name": "Универзална Инвестициона Банка Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/UNI"
+    },
+    {
+        "Issuer code": "USJE",
+        "Issuer name": "ТИТАН УСЈЕ АД Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/USJE"
+    },
+    {
+        "Issuer code": "VARG",
+        "Issuer name": "Вардар Градско",
+        "Issuer link": "https://www.mse.mk/mk/symbol/VARG"
+    },
+    {
+        "Issuer code": "VENC",
+        "Issuer name": "Венец АД Долни Дисан",
+        "Issuer link": "https://www.mse.mk/mk/symbol/VENC"
+    },
+    {
+        "Issuer code": "VITA",
+        "Issuer name": "Витаминка Прилеп",
+        "Issuer link": "https://www.mse.mk/mk/symbol/VITA"
+    },
+    {
+        "Issuer code": "VROS",
+        "Issuer name": "Триглав осигурување Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/VROS"
+    },
+    {
+        "Issuer code": "VTKS",
+        "Issuer name": "Ветекс Велес",
+        "Issuer link": "https://www.mse.mk/mk/symbol/VTKS"
+    },
+    {
+        "Issuer code": "ZAS",
+        "Issuer name": "ЖАС Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZAS"
+    },
+    {
+        "Issuer code": "ZELE",
+        "Issuer name": "Челичен лив и гранулат Железник Д. Хисар",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZELE"
+    },
+    {
+        "Issuer code": "ZILU",
+        "Issuer name": "Жито Лукс Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZILU"
+    },
+    {
+        "Issuer code": "ZILUP",
+        "Issuer name": "Жито лукс Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZILUP"
+    },
+    {
+        "Issuer code": "ZKAR",
+        "Issuer name": "Жито Караорман Кичево - долгорочно суспендирано од котација",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZKAR"
+    },
+    {
+        "Issuer code": "ZLRB",
+        "Issuer name": "Златара Рубин Скопје",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZLRB"
+    },
+    {
+        "Issuer code": "ZPKO",
+        "Issuer name": "ЗК Пелагонија Битола",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZPKO"
+    },
+    {
+        "Issuer code": "ZPOG",
+        "Issuer name": "Жито Полог Тетово",
+        "Issuer link": "https://www.mse.mk/mk/symbol/ZPOG"
+    }
+]

@@ -1,0 +1,518 @@
+[
+    {
+        "id": 1,
+        "name": "ADIN"
+    },
+    {
+        "id": 2,
+        "name": "ALK"
+    },
+    {
+        "id": 3,
+        "name": "GRNT"
+    },
+    {
+        "id": 4,
+        "name": "INB"
+    },
+    {
+        "id": 5,
+        "name": "KMB"
+    },
+    {
+        "id": 6,
+        "name": "MPT"
+    },
+    {
+        "id": 7,
+        "name": "MTUR"
+    },
+    {
+        "id": 8,
+        "name": "OKTA"
+    },
+    {
+        "id": 9,
+        "name": "REPL"
+    },
+    {
+        "id": 10,
+        "name": "STB"
+    },
+    {
+        "id": 11,
+        "name": "STIL"
+    },
+    {
+        "id": 12,
+        "name": "TEL"
+    },
+    {
+        "id": 13,
+        "name": "TNB"
+    },
+    {
+        "id": 14,
+        "name": "TTK"
+    },
+    {
+        "id": 15,
+        "name": "UNI"
+    },
+    {
+        "id": 16,
+        "name": "RADE"
+    },
+    {
+        "id": 17,
+        "name": "TETE"
+    },
+    {
+        "id": 18,
+        "name": "TKVS"
+    },
+    {
+        "id": 19,
+        "name": "USJE"
+    },
+    {
+        "id": 20,
+        "name": "ZPKO"
+    },
+    {
+        "id": 21,
+        "name": "AITO"
+    },
+    {
+        "id": 22,
+        "name": "AMEH"
+    },
+    {
+        "id": 23,
+        "name": "APTK"
+    },
+    {
+        "id": 24,
+        "name": "ATPP"
+    },
+    {
+        "id": 25,
+        "name": "AUMK"
+    },
+    {
+        "id": 26,
+        "name": "BANA"
+    },
+    {
+        "id": 27,
+        "name": "BGOR"
+    },
+    {
+        "id": 28,
+        "name": "BIM"
+    },
+    {
+        "id": 29,
+        "name": "BLTU"
+    },
+    {
+        "id": 30,
+        "name": "CBNG"
+    },
+    {
+        "id": 31,
+        "name": "CEVI"
+    },
+    {
+        "id": 32,
+        "name": "CKB"
+    },
+    {
+        "id": 33,
+        "name": "DEBA"
+    },
+    {
+        "id": 34,
+        "name": "DIMI"
+    },
+    {
+        "id": 35,
+        "name": "ELMA"
+    },
+    {
+        "id": 36,
+        "name": "EUHA"
+    },
+    {
+        "id": 37,
+        "name": "EVRO"
+    },
+    {
+        "id": 38,
+        "name": "FAKM"
+    },
+    {
+        "id": 39,
+        "name": "FERS"
+    },
+    {
+        "id": 40,
+        "name": "FKPO"
+    },
+    {
+        "id": 41,
+        "name": "FUBT"
+    },
+    {
+        "id": 42,
+        "name": "GRDN"
+    },
+    {
+        "id": 43,
+        "name": "GRSN"
+    },
+    {
+        "id": 44,
+        "name": "GRZD"
+    },
+    {
+        "id": 45,
+        "name": "GTC"
+    },
+    {
+        "id": 46,
+        "name": "GTRG"
+    },
+    {
+        "id": 47,
+        "name": "INBR"
+    },
+    {
+        "id": 48,
+        "name": "INHO"
+    },
+    {
+        "id": 49,
+        "name": "INPR"
+    },
+    {
+        "id": 50,
+        "name": "INTP"
+    },
+    {
+        "id": 51,
+        "name": "KARO"
+    },
+    {
+        "id": 52,
+        "name": "KJUBI"
+    },
+    {
+        "id": 53,
+        "name": "KLST"
+    },
+    {
+        "id": 54,
+        "name": "KOMU"
+    },
+    {
+        "id": 55,
+        "name": "KONF"
+    },
+    {
+        "id": 56,
+        "name": "KONZ"
+    },
+    {
+        "id": 57,
+        "name": "KPSS"
+    },
+    {
+        "id": 58,
+        "name": "KVAS"
+    },
+    {
+        "id": 59,
+        "name": "LOTO"
+    },
+    {
+        "id": 60,
+        "name": "LOZP"
+    },
+    {
+        "id": 61,
+        "name": "MAKP"
+    },
+    {
+        "id": 62,
+        "name": "MAKS"
+    },
+    {
+        "id": 63,
+        "name": "MB"
+    },
+    {
+        "id": 64,
+        "name": "MERM"
+    },
+    {
+        "id": 65,
+        "name": "MKSD"
+    },
+    {
+        "id": 66,
+        "name": "MLKR"
+    },
+    {
+        "id": 67,
+        "name": "MODA"
+    },
+    {
+        "id": 68,
+        "name": "MOKL"
+    },
+    {
+        "id": 69,
+        "name": "MPOL"
+    },
+    {
+        "id": 70,
+        "name": "MZHE"
+    },
+    {
+        "id": 71,
+        "name": "MZOV"
+    },
+    {
+        "id": 72,
+        "name": "MZPU"
+    },
+    {
+        "id": 73,
+        "name": "NEME"
+    },
+    {
+        "id": 74,
+        "name": "NOSK"
+    },
+    {
+        "id": 75,
+        "name": "OBIN"
+    },
+    {
+        "id": 76,
+        "name": "OILK"
+    },
+    {
+        "id": 77,
+        "name": "OPFO"
+    },
+    {
+        "id": 78,
+        "name": "OPTK"
+    },
+    {
+        "id": 79,
+        "name": "ORAN"
+    },
+    {
+        "id": 80,
+        "name": "OSPO"
+    },
+    {
+        "id": 81,
+        "name": "OTEK"
+    },
+    {
+        "id": 82,
+        "name": "PALT"
+    },
+    {
+        "id": 83,
+        "name": "PKB"
+    },
+    {
+        "id": 84,
+        "name": "POPK"
+    },
+    {
+        "id": 85,
+        "name": "PPIV"
+    },
+    {
+        "id": 86,
+        "name": "PROD"
+    },
+    {
+        "id": 87,
+        "name": "RINS"
+    },
+    {
+        "id": 88,
+        "name": "RZEK"
+    },
+    {
+        "id": 89,
+        "name": "RZIT"
+    },
+    {
+        "id": 90,
+        "name": "RZLE"
+    },
+    {
+        "id": 91,
+        "name": "RZLV"
+    },
+    {
+        "id": 92,
+        "name": "RZTK"
+    },
+    {
+        "id": 93,
+        "name": "RZUG"
+    },
+    {
+        "id": 94,
+        "name": "RZUS"
+    },
+    {
+        "id": 95,
+        "name": "SBT"
+    },
+    {
+        "id": 96,
+        "name": "SDOM"
+    },
+    {
+        "id": 97,
+        "name": "SIGA"
+    },
+    {
+        "id": 98,
+        "name": "SIL"
+    },
+    {
+        "id": 99,
+        "name": "SKP"
+    },
+    {
+        "id": 100,
+        "name": "SLAV"
+    },
+    {
+        "id": 101,
+        "name": "SPAZ"
+    },
+    {
+        "id": 102,
+        "name": "SPAZP"
+    },
+    {
+        "id": 103,
+        "name": "SPOL"
+    },
+    {
+        "id": 104,
+        "name": "SSPR"
+    },
+    {
+        "id": 105,
+        "name": "STBP"
+    },
+    {
+        "id": 106,
+        "name": "STEL"
+    },
+    {
+        "id": 107,
+        "name": "STOK"
+    },
+    {
+        "id": 108,
+        "name": "TAJM"
+    },
+    {
+        "id": 109,
+        "name": "TASK"
+    },
+    {
+        "id": 110,
+        "name": "TEAL"
+    },
+    {
+        "id": 111,
+        "name": "TEHN"
+    },
+    {
+        "id": 112,
+        "name": "TIKV"
+    },
+    {
+        "id": 113,
+        "name": "TKPR"
+    },
+    {
+        "id": 114,
+        "name": "TRDB"
+    },
+    {
+        "id": 115,
+        "name": "TRPS"
+    },
+    {
+        "id": 116,
+        "name": "TSMP"
+    },
+    {
+        "id": 117,
+        "name": "TURT"
+    },
+    {
+        "id": 118,
+        "name": "VARG"
+    },
+    {
+        "id": 119,
+        "name": "VENC"
+    },
+    {
+        "id": 120,
+        "name": "VITA"
+    },
+    {
+        "id": 121,
+        "name": "VROS"
+    },
+    {
+        "id": 122,
+        "name": "VTKS"
+    },
+    {
+        "id": 123,
+        "name": "ZAS"
+    },
+    {
+        "id": 124,
+        "name": "ZELE"
+    },
+    {
+        "id": 125,
+        "name": "ZILU"
+    },
+    {
+        "id": 126,
+        "name": "ZILUP"
+    },
+    {
+        "id": 127,
+        "name": "ZKAR"
+    },
+    {
+        "id": 128,
+        "name": "ZLRB"
+    },
+    {
+        "id": 129,
+        "name": "ZPOG"
+    }
+]

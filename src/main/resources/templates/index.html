@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="mk" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <th:block th:replace="~{fragments :: header_scripts}"></th:block>
+    <title>МСЕ Аналитика | Почетна</title>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .loader-spin { border: 3px solid #f3f3f3; border-top: 3px solid #3b82f6; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+<div th:replace="~{fragments :: navbar('index')}"></div>
+
+<main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+
+    <div th:if="${error != null}" class="mb-6 p-4 bg-red-50 border-l-4 border-red-500 text-red-700 flex items-center justify-between">
+        <div class="flex items-center">
+            <i class="fas fa-exclamation-circle mr-3"></i>
+            <p th:text="${error}"></p>
+        </div>
+        <button onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-700">&times;</button>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+
+        <div class="lg:col-span-3 space-y-6">
+            <div class="flex justify-between items-end">
+                <div>
+                    <h1 class="text-2xl font-bold text-gray-800">Листа на издавачи</h1>
+                    <p class="text-sm text-gray-500">Преглед на сите активни компании на Македонска Берза</p>
+                </div>
+                <div id="loader-container" class="flex items-center gap-2 text-blue-600 font-medium"
+                     th:classappend="${error == null ? 'hidden' : 'flex'}">
+                    <div class="loader-spin"></div>
+                    <span class="text-xs">Се вчитаваат податоци...</span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                <div id="tableContainer" class="min-h-[400px]">
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-1 space-y-6">
+            <div class="bg-blue-900 rounded-xl p-6 text-white shadow-lg">
+                <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                    <i class="fas fa-file-export text-blue-300"></i> Експорт на податоци
+                </h3>
+
+                <div class="space-y-4">
+                    <div class="bg-blue-800/50 p-4 rounded-lg border border-blue-700">
+                        <p class="text-xs text-blue-100 mb-3 leading-relaxed">Превземете ги сите шифри на издавачите во JSON формат.</p>
+                        <button id="jsonButton"
+                                th:disabled="${error != null}"
+                                onclick="window.location.href = '/download/issuer_names.json'"
+                                class="w-full bg-white text-blue-900 py-2 rounded font-bold text-sm hover:bg-blue-50 transition disabled:opacity-50">
+                            <i class="fas fa-code mr-2"></i>Шифри (JSON)
+                        </button>
+                    </div>
+
+                    <div class="bg-blue-800/50 p-4 rounded-lg border border-blue-700">
+                        <p class="text-xs text-blue-100 mb-3 leading-relaxed">Превземете ги комплетните историски дневни податоци (.csv).</p>
+                        <button id="csvButton"
+                                th:disabled="${error != null}"
+                                onclick="window.location.href = '/download/mega-data.csv'"
+                                class="w-full bg-blue-500 text-white py-2 rounded font-bold text-sm hover:bg-blue-400 transition disabled:opacity-50">
+                            <i class="fas fa-table mr-2"></i>Преземи CSV
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+                <h3 class="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4">Инфо</h3>
+                <ul class="text-sm space-y-3">
+                    <li class="flex justify-between"><span class="text-gray-500">Ажурирано:</span> <span class="font-semibold" id="lastUpdate">Денес</span></li>
+                    <li class="flex justify-between"><span class="text-gray-500">Статус:</span> <span class="text-green-500 font-semibold italic">● Активно</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div th:replace="~{fragments :: footer}"></div>
+
+<script src="/js/autoRefresh.js"></script>
+<script src="/js/issuersTable.js"></script>
+</body>
+</html>

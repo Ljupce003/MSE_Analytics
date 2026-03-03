@@ -1,0 +1,138 @@
+/* --- Global Resets & Foundation --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fafb; /* Light Gray background for the new UI */
+    color: #111827;
+    line-height: 1.5;
+}
+
+/* Ensure the main content pushes the footer down */
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* --- Component Specific Styling --- */
+
+/* Highcharts container needs room for the navigator/scrollbar */
+#container {
+    width: 100%;
+    min-height: 600px; /* Fixing the clipping issue you mentioned */
+    background: transparent;
+}
+
+/* Custom Scrollbar for modern look */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* --- Table Styling --- */
+#tableContainer {
+    width: 100%;
+    border-radius: 1rem;
+    background: white;
+}
+
+/* Clean up table borders and spacing */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Remove old th/td styling and let Tailwind classes handle it, 
+   but keep these for raw JS table generation fallback */
+.js-generated-table th {
+    background: #f8fafc;
+    color: #64748b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.js-generated-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.875rem;
+}
+
+/* --- Loader Animation --- */
+.circle-loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #3b82f6;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader-container {
+    display: none;
+}
+
+.loader-container.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Form Elements --- */
+select, input {
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    filter: grayscale(1);
+}
+
+/* Prediction Badge Colors */
+.sentiment-positive { background-color: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
+.sentiment-negative { background-color: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+.sentiment-neutral  { background-color: #f3f4f6; color: #374151; border: 1px solid #e5e7eb; }
+
+/* --- Helper Classes --- */
+.text-balance {
+    text-wrap: balance;
+}
+
+.shadow-soft {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}

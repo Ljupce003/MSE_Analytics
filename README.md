@@ -1,7 +1,27 @@
 # MSE Analytics
 
-A web platform for tracking and predicting stock data from the Macedonian Stock Exchange. This project integrates a *
-*Spring Boot** backend with **Python** scripts to handle data scraping, analysis, and machine learning.
+A web platform for tracking and predicting stock data from the Macedonian Stock Exchange. This project integrates a
+**Spring Boot** backend with **Python** scripts to handle data scraping, analysis, and machine learning.
+
+---
+
+<!-- TOC -->
+* [MSE Analytics](#mse-analytics)
+  * [Project Overview](#project-overview)
+  * [Technical Stack](#technical-stack)
+  * [Getting Started](#getting-started)
+    * [1. Prerequisites](#1-prerequisites)
+    * [2. Check Versions](#2-check-versions)
+      * [2.1 JDK and Maven Configuration](#21-jdk-and-maven-configuration)
+    * [2. Activate the Environment](#2-activate-the-environment)
+    * [3. Build the Project](#3-build-the-project)
+    * [4. Setup Python Environment](#4-setup-python-environment)
+    * [5. Running the App](#5-running-the-app)
+  * [How it works](#how-it-works)
+  * [API Endpoints](#api-endpoints)
+<!-- TOC -->
+
+---
 
 ## Project Overview
 
@@ -41,7 +61,8 @@ mvn -v
 
 #### 2.1 JDK and Maven Configuration
 
-If your global Java version is different from **JDK 17**, you can use the provided environment script to isolate this project without changing your system-wide settings.
+If your global Java version is different from **JDK 17**, you can use the provided environment script to isolate this
+project without changing your system-wide settings.
 
 1. Download the **JDK 17 (ZIP version)** and extract it (e.g., to `C:\Java\jdk-17`).
 2. Use the `env.ps1` script located in the root directory:
@@ -66,7 +87,6 @@ To apply these settings to your current terminal session, use **dot-sourcing** (
 . .\env.ps1
 
 ```
-
 
 ### 3. Build the Project
 
@@ -118,7 +138,6 @@ The application uses a **ProcessBuilder** approach in Java to trigger Python scr
 
 ## API Endpoints
 
-
 | HTTP Method | Endpoint                       | Controller               | Return Type    | Description                                   |
 |-------------|--------------------------------|--------------------------|----------------|-----------------------------------------------|
 | **GET**     | `/`                            | `GetController`          | HTML Template  | Home page (redirects to index)                |
@@ -140,5 +159,33 @@ The application uses a **ProcessBuilder** approach in Java to trigger Python scr
 **HTML Templates**: `index`, `tech_analysis`, `fundamental`, `lstm`, `progress`
 
 **API Endpoints**: 7 endpoints (4 file downloads, 1 flag status, 2 progress endpoints)
+
+## Images
+
+### Home page
+![Home Page](Images/index.png)
+Home page with navigation and summary of features.
+
+### Technical Analysis
+![Technical Analysis](Images/tech-2.png)
+Technical analysis page showing various indicators and charts.
+
+<br>
+
+![Technical Analysis](Images/tech-1.png)
+Technical analysis page showing different indicators and charts and zoomed in on the price chart.
+
+### Fundamental Analysis
+![Fundamental Analysis](Images/nlp.png)
+Fundamental analysis page showing sentiment analysis results of the news articles for the stock.
+
+### LSTM Prediction
+![LSTM Prediction](Images/lstm.png)
+LSTM prediction page showing the predicted stock price for the next 7 days.
+
+### System status and progress monitoring
+![System Pulse](images/system_pulse.png)
+System pulse page showing the progress of the background Python scripts in real-time.
+
 
 

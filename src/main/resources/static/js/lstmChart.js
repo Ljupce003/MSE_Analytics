@@ -114,7 +114,7 @@ function initializeChart(stockData) {
         chart.series[1].update({ name: selectedStock + " Predicted Close Price" });
 
         document.getElementById("score_container").innerHTML="Score for : <b>"+ selectedStock +
-            "</b> is "+ score_issuer[selectedStock]
+            "</b> is "+ (score_issuer[selectedStock] * 100). toFixed(2) + "%";
 
         document.getElementById("score_container").style= "font-weight: 400;"
         let section = document.getElementById("tech");

@@ -184,7 +184,7 @@ Fundamental analysis page showing sentiment analysis results of the news article
 LSTM prediction page showing the predicted stock price for the next 7 days.
 
 ### System status and progress monitoring
-![System Pulse](images/system_pulse.png)
+![System Pulse](Images/sys-status.png)
 System pulse page showing the progress of the background Python scripts in real-time.
 
 
